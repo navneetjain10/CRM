@@ -6,6 +6,7 @@ using Microsoft.Azure.WebJobs.Extensions.Http;
 using Microsoft.AspNetCore.Http;
 using Microsoft.Azure.WebJobs.Host;
 using Newtonsoft.Json;
+using Microsoft.Extensions.Logging;
 
 namespace HTTPTriggeredFunction
 {
@@ -25,6 +26,12 @@ namespace HTTPTriggeredFunction
             return name != null
                 ? (ActionResult)new OkObjectResult($"Hello, {name}")
                 : new BadRequestObjectResult("Please pass a name on the query string or in the request body");
+        }
+
+        public static IActionResult GetUstomerDetails(ILogger logger)
+        {
+            logger.LogError("Details log for the customer");
+            return (ActionResult) new OkObjectResult("customer details");
         }
     }
 }
