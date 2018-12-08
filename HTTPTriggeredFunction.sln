@@ -5,6 +5,8 @@ VisualStudioVersion = 15.0.27703.2042
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "HTTPTriggeredFunction", "HTTPTriggeredFunction\HTTPTriggeredFunction.csproj", "{754F95BA-7BBE-4455-AE67-2616A0B39812}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TimeTriggerFunction", "TimeTriggerFunction\TimeTriggerFunction.csproj", "{A8B606C3-EC90-44BE-902B-54190072BB0E}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -15,6 +17,10 @@ Global
 		{754F95BA-7BBE-4455-AE67-2616A0B39812}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{754F95BA-7BBE-4455-AE67-2616A0B39812}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{754F95BA-7BBE-4455-AE67-2616A0B39812}.Release|Any CPU.Build.0 = Release|Any CPU
+		{A8B606C3-EC90-44BE-902B-54190072BB0E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A8B606C3-EC90-44BE-902B-54190072BB0E}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{A8B606C3-EC90-44BE-902B-54190072BB0E}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{A8B606C3-EC90-44BE-902B-54190072BB0E}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
